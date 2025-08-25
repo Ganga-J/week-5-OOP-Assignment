@@ -1,5 +1,6 @@
-#
+
 # Assignment 1: Design Your Own Class!
+
 
 class Smartphone:
     """A class representing a generic smartphone."""
@@ -64,8 +65,8 @@ my_foldable_phone.display_info()
 my_foldable_phone.fold()
 print("\n" + "=" * 30 + "\n")
 
-#
 # Activity 2: Polymorphism Challenge! 
+# Create a base class called Vehicle with a method move(). Then, create two subclasses: Car and Plane.
 
 class Vehicle:
     """A generic class for a vehicle."""
@@ -94,4 +95,3 @@ vehicles = [Vehicle(), Car(), Plane()]
 print("Polymorphism Demonstration:")
 for v in vehicles:
     v.move()
-
